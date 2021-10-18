@@ -1,0 +1,70 @@
+header{
+  background-color: #40a798 ;
+  z-index: 1000;
+  padding: 30px;
+  Margin-bottom: 30px;
+}
+
+.carrito{
+  min-height: 70vh;
+  max-height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table__productos{
+  display: flex;
+}
+
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+
+}
+
+footer{
+  padding:30px;
+  margin-top: 50px !important;
+  padding-top: 50px !important;
+  background-color:#40a798;
+}
+
+.tituloproductos{
+  text-align: center;
+  color: #40a798;
+  margin: 15px;
+  padding-bottom: 15px;
+}
+
+.card{
+  padding-bottom: 20px;
+}
+
+.btn-primary{
+  background-color: #40a798 !important;
+  border-color: black;
+}
+
+.nav-link{
+  color: #fff !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #40a798 !important;
+}
+
+#nav-contact{
+  padding-bottom: 40px;
+}
